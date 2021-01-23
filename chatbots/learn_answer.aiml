@@ -1,0 +1,11 @@
+<aiml>
+  <category>
+    <pattern>I want to teach you something.</pattern>
+    <template><system>ruby </system><template>
+  </category>
+  
+  <category>
+    <pattern>I want to know about *</pattern>
+    <template><system>ruby result/*.rb</system><template>
+  <category>
+</aiml>
