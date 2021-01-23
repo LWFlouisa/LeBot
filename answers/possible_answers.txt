@@ -1,4 +1,8 @@
-these
-are
-my
-answers
+black
+blue
+red
+yellow
+green
+brown
+purple
+yellow
