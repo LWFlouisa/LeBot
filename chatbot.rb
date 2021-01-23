@@ -1,3 +1,15 @@
+def search
+  require "aLearn"
+
+  ALearn::LearnAnswer.bf_search
+end
+
+def spout
+  require "aLearn"
+
+  ALearn::LearnAnswer.find_answer
+end
+
 ## This will be the primary chatbot engine.
 require 'programr'
 
@@ -21,6 +33,8 @@ while true
     # reaction.play("en")
 
     STDOUT.puts "#{bot_name} << I have no answer for that."
+  elsif reaction == "Lets learn something new."; search
+  elsif reaction ==     "Let learn a new word."; spout
   else
     # reaction.play("en")
 
